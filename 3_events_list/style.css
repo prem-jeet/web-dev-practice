@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=PT+Sans:wght@400;700&display=swap");
+/* design insiparion : https://www.uidesigndaily.com/posts/sketch-events-list-day-1263*/
+:root {
+  --title_font: "Merriweather", serif;
+  --font: "PT Sans", sans-serif;
+
+  --content-font-weight: 600;
+  --date-font-weight: 400;
+
+  --content-font-size: 1rem;
+  --date-font-size: 0.7rem;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #ebebf3;
+}
+
+.border {
+  /* border: 0.1rem solid black; */
+}
+
+.container {
+  width: 25vw;
+  height: 60vh;
+  position: relative;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem 10px -0.5rem #b4b4bc;
+  min-width: 45ch;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 2rem 4rem;
+}
+
+.container::before {
+  content: "";
+  padding: 40%;
+  background-color: #f161a3;
+  border-radius: 50%;
+  position: absolute;
+  left: -45%;
+  top: -15%;
+  z-index: -1;
+}
+.container::after {
+  content: "";
+  padding: 50%;
+  background-color: #fa7c64;
+  border-radius: 50%;
+  position: absolute;
+  left: 52%;
+  top: 45%;
+  z-index: -1;
+}
+
+.flex-item {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-family: var(--title_font);
+}
+
+/* button */
+.button-container {
+  align-items: center;
+  /* padding: 1rem; */
+}
+.button {
+  width: 100%;
+  padding: 1rem 0;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: #f7b42c;
+  background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+
+  box-shadow: 0 1rem 1rem -8px #b4b4bc;
+}
+
+.content {
+  font-weight: var(--content-font-weight);
+  font-size: var(--content-font-size);
+}
+
+.date {
+  font-weight: var(--date-font-weight);
+  font-size: var(--date-font-size);
+  color: #b4b4bc;
+}
+
+.flex-item:not(:last-child, :nth-child(1), :nth-last-child(2)) {
+  border-bottom: 0.1rem solid #b4b4bc;
+}
+
+.event-container {
+  gap: 0.2rem;
+}

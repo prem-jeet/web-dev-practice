@@ -2,7 +2,7 @@
 
 # web-dev-practice
 ---
-### [Quiz_Card](https://prem-jeet.github.io/web-dev-practice/1_quiz_card)
+### [Quiz Card](https://prem-jeet.github.io/web-dev-practice/1_quiz_card)
 
 ### [Profile Card](https://prem-jeet.github.io/web-dev-practice/2_profile_card)
 

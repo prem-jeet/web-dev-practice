@@ -10,7 +10,7 @@
 
 ### [Events List 2](https://prem-jeet.github.io/web-dev-practice/4_events_list_2)
 
-### [Feedback Card](https://prem-jeet.github.io/web-dev-practice/5_feedback_card)
+### [Feedback Card](https://prem-jeet.github.io/web-dev-practice/5_feedback_Card)
 
 ### [Stats Card](https://prem-jeet.github.io/web-dev-practice/6_stats_card)
 

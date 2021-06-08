@@ -1,17 +1,17 @@
 <!-- link : https://prem-jeet.github.io/web-dev-practice/1_quiz_card/ -->
 
 # web-dev-practice
+---
+### [Quiz_Card](https://prem-jeet.github.io/web-dev-practice/1_quiz_card)
 
-### [quiz_card](https://prem-jeet.github.io/web-dev-practice/1_quiz_card)
+### [Profile Card](https://prem-jeet.github.io/web-dev-practice/2_profile_card)
 
-### [profile_card](https://prem-jeet.github.io/web-dev-practice/2_profile_card)
+### [Events List](https://prem-jeet.github.io/web-dev-practice/3_events_list)
 
-### [events_list](https://prem-jeet.github.io/web-dev-practice/3_events_list)
+### [Events List 2](https://prem-jeet.github.io/web-dev-practice/4_events_list_2)
 
-### [events_list_2](https://prem-jeet.github.io/web-dev-practice/4_events_list_2)
+### [Feedback Card](https://prem-jeet.github.io/web-dev-practice/5_feedback_card)
 
-### [feedback_card](https://prem-jeet.github.io/web-dev-practice/5_feedback_card)
+### [Stats Card](https://prem-jeet.github.io/web-dev-practice/6_stats_card)
 
-### [stats_card](https://prem-jeet.github.io/web-dev-practice/6_stats_card)
-
-### [landing_page](https://prem-jeet.github.io/web-dev-practice/7_landing_page)
+### [Landing Page](https://prem-jeet.github.io/web-dev-practice/7_landing_page)

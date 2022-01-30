@@ -15,3 +15,5 @@
 ### [Stats Card](https://prem-jeet.github.io/web-dev-practice/6_stats_card)
 
 ### [Landing Page](https://prem-jeet.github.io/web-dev-practice/7_landing_page)
+
+### [Side navigation](https://prem-jeet.github.io/web-dev-practice/8_1337x-sidebar-layout)

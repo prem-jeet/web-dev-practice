@@ -1,0 +1,47 @@
+.flaticon-trending::before {
+  content: url(./assets/mycollection/png/001-trend.png);
+}
+
+
+.flaticon-movielibrary::before {
+  content: url(./assets/mycollection/png/002-film.png);
+}
+
+.flaticon-tvlibrary::before {
+  content: url("./assets/mycollection/png/003-cassete.png");
+}
+
+.flaticon-newtvepisode::before {
+  content: url("./assets/mycollection/png/004-tv.png");
+}
+
+.flaticon-top100torrent::before {
+  content: url("./assets/mycollection/png/005-top-games-star.png");
+}
+
+.flaticon-anime::before {
+  content: url("./assets/mycollection/png/006-ninja.png");
+}
+
+.flaticon-applications::before {
+  content: url("./assets/mycollection/png/007-windows-logo.png");
+}
+.flaticon-documentaries::before {
+  content: url("./assets/mycollection/png/008-cinema-projector.png");
+}
+.flaticon-games::before {
+  content: url("./assets/mycollection/png/009-game-controller.png");
+}
+.flaticon-movies::before {
+  content: url("./assets/mycollection/png/010-clapperboard.png");
+}
+.flaticon-music::before {
+  content: url("./assets/mycollection/png/011-musical-note.png");
+}
+.flaticon-others::before {
+  content: url("./assets/mycollection/png/012-open-box.png");
+}
+
+.flaticon-television::before {
+  content: url("./assets/mycollection/png/004-tv.png");
+}

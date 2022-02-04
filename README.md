@@ -17,3 +17,5 @@
 ### [Landing Page](https://prem-jeet.github.io/web-dev-practice/7_landing_page)
 
 ### [Side navigation](https://prem-jeet.github.io/web-dev-practice/8_1337x-sidebar-layout)
+
+### [Pricing Table](https://prem-jeet.github.io/web-dev-practice/9_PriceTable(colt_steele_bootcamp))

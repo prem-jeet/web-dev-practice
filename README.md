@@ -20,4 +20,4 @@
 
 ### [Pricing Table](https://prem-jeet.github.io/web-dev-practice/9_PriceTable(colt_steele_bootcamp))
 
-### [Pricing Table](https://prem-jeet.github.io/web-dev-practice/10_userslist)
+### [Users List (R)](https://prem-jeet.github.io/web-dev-practice/10_userslist)

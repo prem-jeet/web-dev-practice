@@ -47,6 +47,7 @@ h1 {
   font-weight: 700;
   font-family: "Big Shoulders Display", cursive;
   color: var(--verylight-gray);
+  text-transform: uppercase;
 }
 
 button,

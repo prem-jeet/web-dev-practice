@@ -6,8 +6,10 @@ const navBar = document.getElementById("mainNavbar");
 document.addEventListener("scroll", () => {
   if (window.scrollY === 0) {
     navBar.classList.remove("scrolled");
+    navBar.classList.remove("mt-3");
   }
   if (window.scrollY > navBar.clientHeight) {
     navBar.classList.add("scrolled");
+    navBar.classList.add("mt-3");
   }
 });

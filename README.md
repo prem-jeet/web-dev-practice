@@ -24,4 +24,4 @@
 
 ### [3 Column Preview Card (R)](https://prem-jeet.github.io/web-dev-practice/11_3column_previw_card)
 
-### [Museus of candy (R)(B)](https://prem-jeet.github.io/web-dev-practice/12_museumOfCandy)
+### [Museum of candy (R)(B)](https://prem-jeet.github.io/web-dev-practice/12_museumOfCandy)

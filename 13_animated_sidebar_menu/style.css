@@ -3,8 +3,8 @@
 	--nav-text-color: #036666;
 	--nav-icon-color: #ff0a54;
 }
-
-/* * {
+/* 
+* {
 	outline: 1px solid #000;
 } */
 
@@ -13,18 +13,22 @@ html {
 	height: 100vh;
 	overflow-x: hidden;
 }
+
 .wrapper {
 	width: 100%;
 	height: 100%;
 	position: relative;
 }
+
+/* styles for the nav bar */
 nav {
 	width: 100%;
 	height: 100%;
 	background-color: var(--nav-background-color);
 }
+
 nav aside {
-	width: 30%;
+	width: 40%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -38,6 +42,8 @@ aside ul {
 	flex-direction: column;
 	justify-content: space-evenly;
 	font-size: 1.5rem;
+    font-weight: 600;
+	letter-spacing: 1px;
 	width: 80%;
 }
 
@@ -47,27 +53,29 @@ aside a {
 	text-decoration: none;
 	color: var(--nav-text-color);
 }
-aside a {
-	font-size: 110%;
-}
+
 aside li {
 	display: flex;
 	justify-content: start;
 	align-items: center;
-	font-weight: 600;
-	letter-spacing: 1px;
 }
+
+aside li a {
+	font-size: 110%;
+}
+
 aside li i {
 	color: var(--nav-icon-color);
-	flex: 0 25%;
+	flex: 0 0 20%;
 	font-size: 80%;
 }
 
+
+/* style for the main content container */
 main {
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	/* 	padding-top: 5rem; */
 	top: 0;
 	left: 0;
 	background-color: #ffcfd2;
@@ -75,7 +83,9 @@ main {
 	box-shadow: -30px 20px 5px -3px #cdb4db;
 }
 
-#navbutton {
+
+/* style for hte hamberger menu */
+#hamberger_button {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -84,6 +94,8 @@ main {
 	margin-top: 1rem;
 }
 
+
+/* utility classes to be added through jsvascript */
 .transition-all {
 	transition: all 500ms ease-in-out;
 }
@@ -95,9 +107,9 @@ main {
 	top: 20%;
 	padding-top: 1rem;
 }
-.hide {
-	opacity: 0.1;
-}
+
+
+/* media query to adjust size of the aside element on different screens */
 
 @media (max-width: 620px) {
 	nav aside {
